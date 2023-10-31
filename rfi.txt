@@ -1,0 +1,1 @@
+Remote File Inclusion (RFI) is a security vulnerability that occurs when a web application allows an attacker to include remote files in a web page.
