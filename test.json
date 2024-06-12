@@ -1,0 +1,15 @@
+{
+    "url": "https://tvmbug.github.io/xss/test.yaml",
+    "urls": [
+        {
+            "url": "https://tvmbug.github.io/xss/test.yaml",
+            "name": "Foo"
+        },
+        {
+            "url": "https://tvmbug.github.io/xss/test2.yaml",
+            "name": "Foo2"
+        }
+    ]
+}
+
+
