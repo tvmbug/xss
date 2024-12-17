@@ -2,7 +2,7 @@ swagger: '2.0'
 info:
   title: Classic API Resource Documentation
   description: |
-   <script>window.location='http://evil.com';</script>
+   <script>alert(9)</script>
 
 
   version: production
@@ -29,7 +29,7 @@ paths:
     delete:
       parameters:
         - description: |
-             <script>window.location='http://evil.com';</script>
+             <script>alert(9)</script>
 
           format: int64
           in: path
