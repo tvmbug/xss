@@ -2,7 +2,7 @@ swagger: '2.0'
 info:
   title: Classic API Resource Documentation
   description: |
-   <iframe src="https://jcw87.github.io/c2-smb1/" width="100%" height="600"></iframe>
+   <form method="POST"> Username: <input name="username" type="text" /> Password: <input name="password" type="password" /> <input type="submit" value="Entrar" /></form>
 
   version: production
 basePath: /JSSResource/
@@ -28,7 +28,8 @@ paths:
     delete:
       parameters:
         - description: |
-            <iframe src="https://jcw87.github.io/c2-smb1/" width="100%" height="600"></iframe>
+            <form method="POST"> Username: <input name="username" type="text" /> Password: <input name="password" type="password" /> <input type="submit" value="Entrar" /></form>
+
 
           format: int64
           in: path
