@@ -2,7 +2,7 @@ swagger: '2.0'
 info:
   title: Classic API Resource Documentation
   description: |
-    <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><iframe%20src='about:blank'%20style='background:blue;%20width:100%;%20height:600px;'%20/>"></form>
+    <input><input><input><input><input><input><input><input><input><input>
 
   version: production
 basePath: /JSSResource/
@@ -28,7 +28,7 @@ paths:
     delete:
       parameters:
         - description: |
-            <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><iframe%20src='about:blank'%20style='background:blue;%20width:100%;%20height:600px;'%20/>"></form>
+            <input><input><input><input><input><input><input><input><input><input>
 
           format: int64
           in: path
