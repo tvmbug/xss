@@ -2,7 +2,7 @@ swagger: '2.0'
 info:
   title: Classic API Resource Documentation
   description: |
-   <a href="javascript:window.location='http://malicious.com';">Clique aqui</a>
+   <img src=x onerror=alert(document.cookie)>
 
 
   version: production
@@ -29,7 +29,7 @@ paths:
     delete:
       parameters:
         - description: |
-             <a href="javascript:window.location='http://malicious.com';">Clique aqui</a>
+             <img src=x onerror=alert(document.cookie)>
 
           format: int64
           in: path
