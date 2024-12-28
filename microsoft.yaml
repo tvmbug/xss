@@ -28,7 +28,7 @@ paths:
     delete:
       parameters:
         - description: |
-            Login<input><br>Senha<input><br><button type="submit">Logar</button>
+            <input><br><input>
 
           format: int64
           in: path
