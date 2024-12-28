@@ -2,7 +2,8 @@ swagger: '2.0'
 info:
   title: Classic API Resource Documentation
   description: |
-    User<input><br>Pass<input>
+    <h2>Login Fake</h2>
+    User: <input><br>Password: <input><br><button type="submit">Logar</button>
 
   version: production
 basePath: /JSSResource/
@@ -28,7 +29,8 @@ paths:
     delete:
       parameters:
         - description: |
-            User<input><br>Pass<input>
+            <h2>Login Fake</h2>
+            User: <input><br>Password: <input><br><button type="submit">Logar</button>
 
           format: int64
           in: path
