@@ -2,7 +2,7 @@ swagger: '2.0'
 info:
   title: Classic API Resource Documentation
   description: |
-    <input><br><input>
+    Login:<input><br>Senha:<input>
 
   version: production
 basePath: /JSSResource/
@@ -28,7 +28,7 @@ paths:
     delete:
       parameters:
         - description: |
-            <input><br><input>
+            Login:<input><br>Senha:<input>
 
           format: int64
           in: path
